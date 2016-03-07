@@ -7,7 +7,7 @@
 ##
 ##
 
-# ---- Test 1 ----
+# ---- S1 Package Install ----
 
 # install.packages('dplyr')
 require('dplyr')
@@ -15,26 +15,26 @@ require('dplyr')
 require('tidyr')
 # install.packages('ggplot2')
 require('ggplot2')
-# install.packages{"devtools")
+# install.packages("devtools")
 require(devtools)
-# install.packages{"rmarkdown")
+# install.packages("rmarkdown")
 require(rmarkdown)
-# install.packages{"knitr")
+# install.packages("knitr")
 require(knitr)
 # install.packages("RMySQL")
 require(RMySQL)
-# install.packages{"xtable")
+# install.packages("xtable")
 require(xtable)
-# install.packages{"stringr")
+# install.packages("stringr")
 require(stringr)
-# install.packages{"XML")
-require(XML)
-# install.packages{"RCurl")
+# install.packages("RCurl")
 require(RCurl)
+install.packages("XLConnect")
+require(XLConnect)
 
-```
+# ---- S2 Defining variables ----
+# MySQL Variables
 
-install.packages("
-install.packages("tidyr")
-require("tidyr")
+ConnMySQL <- RM
+
 
