@@ -1,0 +1,19 @@
+---
+output:
+  html_document:
+    theme: flatly
+    highlight: pygment
+    code_folding: hide
+
+---
+
+```{r echo=F, message=FALSE, warning=FALSE, error=FALSE, results='hide' cache=FALSE}
+knitr::read_chunk('113-foo.R')
+```
+
+The following two chunks are from the external R script `113-foo.R`:
+
+```{r test-a}
+```
+```{r test-b}
+```
